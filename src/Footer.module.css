@@ -1,0 +1,56 @@
+footer{
+    background-color: rgb(255, 231, 196);
+    height: fit-content;
+    
+}
+footer h3{
+    font-size: 46px;
+
+}
+footer a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(235, 126, 86);
+}
+.btnFooter{
+    padding: 20px 60px;
+    background-color: rgb(162, 109, 211);
+    border: solid rgb(189, 139, 236);
+    border-radius: 8px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.fontColor{
+    color: rgb(55, 55, 122);
+}
+.pStyle{
+    color: rgb(20, 20, 71);
+    font-size: 28px;
+}
+.bg{
+    background-color:rgb(241, 220, 191);  
+    border-radius: 7px;
+    width: 50%;
+}
+@media (max-width:992px){
+    footer .contact{
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width:517px){
+    footer h3{
+        font-size: 32px;
+    }
+    footer .pStyle{
+        font-size: 20px;
+    }
+    footer a{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    footer .bg{
+        width: 100% !important;
+    }
+
+}
